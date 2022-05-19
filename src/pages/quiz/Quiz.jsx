@@ -1,5 +1,9 @@
 import "./quiz.css";
-
+import { Rules } from "./Rules";
 export function Quiz() {
-  return <main className="sm-main"></main>;
+  return (
+    <>
+      <Rules />
+    </>
+  );
 }

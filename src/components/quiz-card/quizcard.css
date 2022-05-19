@@ -40,6 +40,9 @@
   font-weight: 800;
   border-radius: 3rem;
   background: var(--COLOR-BLACK-40);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .sm-quiz-card-title:hover {
@@ -52,6 +55,17 @@
   align-items: flex-end;
   gap: 2rem;
 }
+.sm-share-icon-conatiner {
+  padding: 0 5px;
+}
+.sm-quiz-card-title i {
+  cursor: pointer;
+  font-size: 3rem;
+}
+
+.sm-quiz-card-title i:hover {
+  color: var(--COLOR-HEADER-FONT-DARK);
+}
 
 .sm-quiz-card-img img {
   width: 100%;
@@ -61,16 +75,18 @@
 }
 
 .sm-quiz-card-content {
-  padding: 1rem 2rem;
+  padding: 1rem;
   display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .sm-quiz-card-subtitle {
-  font-size: 2.4rem;
+  font-size: 2.5rem;
   font-weight: 800;
   text-align: justify;
+  padding: 0 10px;
 }
 
 .sm-quiz-card-info {

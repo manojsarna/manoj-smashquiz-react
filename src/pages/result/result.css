@@ -1,0 +1,30 @@
+.sm-result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem 0;
+}
+
+.sm-result-container .sm-quiz-result {
+  color: var(--COLOR-HEADER-FONT-DARK);
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+.sm-quiz-question .btn-remove-styles {
+  cursor: default;
+}
+.sm-quiz-question .btn-remove-styles:active {
+  transform: scale(1);
+}
+
+.sm-quiz-question .btn-remove-styles:hover {
+  background: var(--COLOR-BG);
+}
+
+.sm-quiz-question .sm-quiz-right-ans:hover {
+  background: var(--COLOR-DARKEN-4);
+}

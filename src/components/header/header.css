@@ -144,7 +144,7 @@
 
 @media only screen and (max-width: 768px) {
   :root {
-    font-size: 45%;
+    font-size: 50%;
   }
   .sm-nav-search {
     display: none;

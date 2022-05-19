@@ -25,7 +25,7 @@ function App() {
         <Route path="/mockman" element={<MockAPI />} />
 
         <Route element={<PrivateRoute />}>
-          {/* <Route path="/user" element={<User />} /> */}
+          <Route path="/user" element={<User />} />
         </Route>
 
         <Route element={<RestrictedRoute />}>

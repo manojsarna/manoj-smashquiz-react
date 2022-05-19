@@ -9,6 +9,7 @@
   gap: 1rem;
   margin: 2rem;
   height: 70vh;
+  width: 100%;
 }
 .sm-main-user-profile {
   display: flex;

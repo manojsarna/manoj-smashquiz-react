@@ -47,7 +47,7 @@ export const testLogin = createAsyncThunk(
         email: "manojsarna@gmail.com",
         password: "Manoj@123",
       });
-      console.log("check");
+
       return response.data;
     } catch (error) {
       return rejectWithValue(`${error.response.data.errors}`);
@@ -69,10 +69,9 @@ export const verify = createAsyncThunk(
           },
         }
       );
-      console.log("verify call", response.data.user);
+
       return response.data;
     } catch (error) {
-      console.log("verify call error", error);
       return rejectWithValue(error.response.data.errors[0]);
     }
   }

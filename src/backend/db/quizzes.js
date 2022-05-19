@@ -192,7 +192,7 @@ export const quizzes = [
         question: "What is the Scarecrow's real name?",
         options: [
           "Dr. Douglas Ross",
-          "Dr. Douglas Ross",
+          "Dr. Douglas Green",
           "Dr. Jonathan Crane",
           "Dr. Drake Ramoray",
         ],
@@ -250,7 +250,7 @@ export const quizzes = [
         question: "What is the Scarecrow's real name?",
         options: [
           "Dr. Douglas Ross",
-          "Dr. Douglas Ross",
+          "Dr. Douglas Green",
           "Dr. Jonathan Crane",
           "Dr. Drake Ramoray",
         ],
@@ -308,7 +308,7 @@ export const quizzes = [
         question: "What is the Scarecrow's real name?",
         options: [
           "Dr. Douglas Ross",
-          "Dr. Douglas Ross",
+          "Dr. Douglas Green",
           "Dr. Jonathan Crane",
           "Dr. Drake Ramoray",
         ],

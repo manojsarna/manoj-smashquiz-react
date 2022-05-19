@@ -17,8 +17,6 @@ export function Category() {
   );
   const category = categories.find((item) => item.category === categoryName);
 
-  console.log(category, quizes);
-
   useEffect(() => {
     if (categoryName) {
       dispatch(getQuizzesInCategory(categoryName));

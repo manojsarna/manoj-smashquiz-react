@@ -21,6 +21,9 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/categories/:categoryName" element={<Category />} />
+        <Route path="/quiz/:quizId" element={<Quiz />} />
+        <Route path="/result" element={<Result />} />
         <Route path="*" element={<Page404 />} />
         <Route path="/mockman" element={<MockAPI />} />
 

@@ -1,0 +1,79 @@
+/* .sm-main .sm-main-feature-p {
+  height: 70vh;
+} */
+
+.sm-main-user-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  gap: 1rem;
+  margin: 2rem;
+  height: 70vh;
+}
+.sm-main-user-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sm-main-heading {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.sm-user-profile-info {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.sm-user-card {
+  min-width: 30%;
+  width: 80%;
+  max-width: 40rem;
+  background: var(--COLOR-BG);
+  border-radius: 4rem;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  border: 2px solid var(--COLOR-HEADER-FONT-DARK);
+}
+.sm-user-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sm-user-card-btn {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.sm-active:hover {
+  background: var(--COLOR-DARKEN-HOVER-1);
+}
+.sm-category-outline-btn {
+  color: var(--COLOR-HEADER-FONT-DARK);
+  background: var(--COLOR-BG);
+  border: 1px solid var(--COLOR-HEADER-FONT-DARK);
+  border-radius: 5rem;
+  font-weight: 600;
+  padding: 1rem 3rem;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background ease-in 0.2s;
+}
+
+.sm-category-outline-btn:hover {
+  color: var(--COLOR-BLACK);
+  background: var(--COLOR-HEADER-FONT-DARK);
+}
+.sm-active {
+  color: var(--COLOR-BLACK);
+  background: var(--COLOR-HEADER-FONT-DARK);
+}

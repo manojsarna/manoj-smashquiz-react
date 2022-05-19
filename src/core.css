@@ -1,0 +1,204 @@
+/* FONTS  */
+/* INTER VAN */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+/* ---- FONT AWESOME ---- */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+/* SMASH UI */
+@import url("https://smashui.netlify.app/lib/components/smashui.css");
+
+:root {
+  /* FONT SIZE  */
+  font-size: 62.5%;
+
+  /* COLORS */
+
+  --COLOR-PRIMARY: #44d62c;
+  --COLOR-LIGHT-PRIMARY: #73e161;
+  --COLOR-DARK-PRIMARY: #1dd800;
+
+  --COLOR-GREY: #60686c;
+  --COLOR-GREY-BADGE: #818997;
+  --COLOR-RED: #cc0000;
+  --COLOR-GREEN: #85a428;
+
+  --COLOR-CODE-BG: #011627;
+
+  --COLOR-BG-WHITE: #ffffff;
+  --COLOR-BG-LIGHTGREEN: #f1ffeb;
+  --COLOR-BG-DARK: #07090a;
+  --COLOR-BG-DARK-R: #040404;
+
+  --COLOR-BADGE-LIGHT: #f1ffeb;
+  --COLOR-BADGE-DARK: #23272a;
+
+  --COLOR-WHITE: #ffffff;
+  --COLOR-WHITE-ALWAYS: #ffffff;
+
+  --COLOR-WHITE-FOR-FA-BG: rgba(255, 255, 255, 0.8);
+
+  --COLOR-BLACK: #000000;
+  --COLOR-BLACK-80: rgba(0, 0, 0, 0.8);
+  --COLOR-BLACK-70: rgba(0, 0, 0, 0.7);
+  --COLOR-BLACK-60: rgba(0, 0, 0, 0.6);
+  --COLOR-BLACK-50: rgba(0, 0, 0, 0.5);
+  --COLOR-BLACK-40: rgba(0, 0, 0, 0.4);
+  --COLOR-BLACK-30: rgba(0, 0, 0, 0.3);
+  --COLOR-BLACK-20: rgba(0, 0, 0, 0.2);
+  --COLOR-BLACK-10: rgba(0, 0, 0, 0.1);
+  --COLOR-RED-1: 255, 0, 0;
+
+  /* COLOR PALETTE LIGHTEN 10% */
+
+  --COLOR-LIGHTEN-1: #44d62c;
+  /* rgb(68,214,44) ORIGINAL*/
+
+  --COLOR-LIGHTEN-2: #5ef046;
+  /* rgb(94,240,70) LIGHTEN 10%*/
+
+  --COLOR-LIGHTEN-3: #77ff5f;
+  /* rgb(119,255,95) LIGHTEN 20%*/
+
+  --COLOR-LIGHTEN-4: #91ff79;
+  /* rgb(145,255,121) LIGHTEN 30%*/
+
+  --COLOR-LIGHTEN-5: #aaff92;
+  /* rgb(170,255,146) LIGHTEN 40%*/
+
+  --COLOR-LIGHTEN-6: #c3ffab;
+  /* rgb(195,255,171) LIGHTEN 50%*/
+
+  /* COLOR PALETTE DARKEN 10% */
+
+  --COLOR-DARKEN-1: #44d62c;
+  /* rgb(68,214,44) ORIGINAL*/
+
+  --COLOR-DARKEN-HOVER-1: #73e161;
+
+  --COLOR-DARKEN-2: #2bbd13;
+  /* rgb(43,189,19) DARKEN 10%*/
+
+  --COLOR-DARKEN-3: #11a300;
+  /* rgb(17,163,0) DARKEN 20%*/
+
+  --COLOR-DARKEN-4: #008a00;
+  /* rgb(0,138,0) DARKEN 30%*/
+
+  --COLOR-DARKEN-5: #007000;
+  /* rgb(0,112,0) DARKEN 40%*/
+
+  --COLOR-DARKEN-6: #005700;
+  /* rgb(0,87,0) DARKEN 50%*/
+
+  /* TEXT COLOR */
+  /* DARK THEME */
+
+  --COLOR-OVERLAY: rgb(234, 234, 236, 0.6);
+
+  --COLOR-DISABLED: rgba(100, 100, 100, 0.3);
+
+  --COLOR-FONT: black;
+  --COLOR-BG: white;
+
+  --COLOR-TEXT-BLACK: #000000;
+  --COLOR-TEXT-GREY: #999999;
+  --COLOR-BS-GREY: rgba(134, 134, 134, 1);
+  --COLOR-TEXT-WHITE: #fff;
+
+  --COLOR-INFO: #004085;
+  --COLOR-INFO-LIGHT: #cce5ff;
+
+  --COLOR-SUCCESS: #006d00;
+  --COLOR-SUCCESS-LIGHT: #e6ffdc;
+
+  --COLOR-SUCCESS-II: #006e00;
+  --COLOR-SUCCESS-LIGHT-II: #efffee;
+
+  --COLOR-WARNING: #a37a00;
+  --COLOR-WARNING-LIGHT: #fff3cd;
+
+  --COLOR-WARNING-II: #6b5101;
+  --COLOR-WARNING-LIGHT-II: #fff9ee;
+
+  --COLOR-ERROR: #664d03;
+  --COLOR-ERROR-NEW: #b20000;
+  --COLOR-ERROR-LIGHT: #ffe3e3;
+
+  /* BACKGROUND */
+  --COLOR-BG-WHITE-GREEN: #e8ffed;
+  --COLOR-BG-BLACK: #222222;
+
+  /* CARD BADGE COLORS */
+  --COLOR-BDG-ORANGE: #e67a00;
+  --COLOR-BDG-RED: #cc0000;
+  --COLOR-BDG-BLACK: #002f36;
+}
+
+html[data-theme="light"] {
+  --COLOR-BG: #ffffff;
+  --COLOR-FONT: black;
+  --COLOR-SCROLL: #ffffff;
+  --COLOR-OUTLINE-BTN-BG: #ffffff;
+  --COLOR-HEADER-FONT-DARK: #11a300;
+  --COLOR-HEADER-FONT-DARK-HOVER: #5ef046;
+  --COLOR-CODE-BG: #0b1120;
+}
+
+html[data-theme="dark"] {
+  --COLOR-BG: #0b1120;
+  --COLOR-FONT: rgb(255, 255, 255, 0.9);
+  --COLOR-SCROLL: #0b1120;
+  --COLOR-OUTLINE-BTN-BG: #ffffff;
+  --COLOR-HEADER-FONT-DARK: #44d62c;
+  --COLOR-HEADER-FONT-DARK-HOVER: #73e161;
+  --COLOR-CODE-BG: #0b1120;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+ul[role="list"],
+ol[role="list"],
+ul {
+  list-style: none;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--COLOR-SCROLL);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--COLOR-PRIMARY);
+  border-radius: 5px;
+}

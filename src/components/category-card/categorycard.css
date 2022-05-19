@@ -1,0 +1,50 @@
+.sm-main-cat-child {
+  position: relative;
+  width: 30rem;
+}
+
+.sm-main-cat-child img {
+  object-fit: cover;
+  width: 100%;
+  height: 20rem;
+  border-radius: 3rem;
+}
+
+.sm-box-shad-hov {
+  border-radius: 3rem;
+  transition: all ease-in 0.2s;
+}
+
+.sm-box-shad-hov:hover {
+  cursor: pointer;
+}
+
+.sm-main-cat-child .sm-man-cat-text {
+  position: absolute;
+  font-size: 3rem;
+  width: auto;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  color: var(--COLOR-WHITE-ALWAYS);
+  text-shadow: 0px 5px 5px var(--COLOR-BLACK);
+  border-radius: 3rem;
+  font-weight: 700;
+  background: var(--COLOR-BLACK-40);
+  transition: all ease-in 0.3s;
+}
+
+.sm-man-cat-text:hover {
+  color: var(--COLOR-LIGHTEN-2);
+  background: var(--COLOR-BLACK-10);
+}
+
+.sm-grid-text {
+  padding: 2rem;
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+}

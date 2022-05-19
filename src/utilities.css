@@ -1,0 +1,40 @@
+/* MAIN PAGE */
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  max-width: 100%;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--COLOR-FONT);
+  background: var(--COLOR-BG);
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-template-columns: auto;
+  grid-template-rows: auto 1fr auto;
+  transition: all 0.2s ease-in;
+}
+
+.toast-container {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.sm-react-loader-spinner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sm-react-loader-spinner svg {
+  height: 30em;
+  width: 30em;
+}

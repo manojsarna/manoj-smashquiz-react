@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img alt="badminton" src="/lib/assets/logo/logo.png" width="1048px" height="238px" />
+<img alt="badminton" src="/public/logo192.png" width="1048px" height="238px" />
 
 Smash Quiz - Rapid Quizzes with Entertainment & Fun Categories ( Tv Shows, Movies, Sports, Technology ) using [Smash UI](https://smashui.netlify.app/)
 

@@ -6,7 +6,6 @@ import "./user.css";
 
 export function User() {
   const { loading, user } = useSelector((state) => state.auth);
-  console.log(loading, user);
 
   const dispatch = useDispatch();
   useDocTitle("User Profile - SmashQuiz - Manoj Sarna");

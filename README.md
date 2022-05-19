@@ -1,10 +1,10 @@
-## Smash Quiz App using Smash UI by Manoj Sarna
+## Smash Quiz App using Smash UI , React.js. Redux Toolkit and MockBee (MockBackend) by Manoj Sarna
 
 <div align="center">
 
 <img alt="badminton" src="/public/logo192.png" width="1048px" height="238px" />
 
-Smash Quiz - Rapid Quizzes with Entertainment & Fun Categories ( Tv Shows, Movies, Sports, Technology ) using [Smash UI](https://smashui.netlify.app/)
+Smash Quiz - Rapid Quizzes with Entertainment & Fun Categories ( Tv Shows, Movies, Sports, Technology ) using [Smash UI](https://smashui.netlify.app/) , React.js. Redux Toolkit
 
 [![GitHub followers](https://img.shields.io/github/followers/manojsarna?style=social)](https://github.com/manojsarna)
 &emsp;
@@ -18,7 +18,7 @@ Smash Quiz - Rapid Quizzes with Entertainment & Fun Categories ( Tv Shows, Movie
 
 ---
 
-## Live Demo: [SmashQuiz](https://smashquiz.netlify.app/)
+## Live Demo: [SmashQuiz React](https://smashquiz-react.netlify.app/)
 
 ---
 
@@ -32,24 +32,31 @@ https://user-images.githubusercontent.com/79917843/154878011-7e5257c1-70f4-46f1-
 
 To start using the SmashQuiz you can visit the following link :
 
-### P0 Screens
+### P0 Features
 
-- [Home Page](https://smashquiz.netlify.app/)
-- [Quizzes by Category](https://smashquiz.netlify.app/lib/components/category/tvshows/tvshows)
-- [Rules Page for while attempting Quiz](https://smashquiz.netlify.app/lib/components/rules/rules)
-- [MCQ based Quiz Question Page](https://smashquiz.netlify.app/lib/components/questions/questions)
-- [Result Page with Answers & Score](https://smashquiz.netlify.app/lib/components/result/result)
+- [Home Page](https://smashquiz-react.netlify.app/)
+- [Quizzes by Category](https://smashquiz-react.netlify.app/)
+- [Rules Page for while attempting Quiz](https://smashquiz-react.netlify.app/)
+- [MCQ based Quiz Question Page](https://smashquiz-react.netlify.app/)
+- [Result Page with Answers & Score](https://smashquiz-react.netlify.app/)
 
-### P1 Screens
+### P1 Features
 
-- [Timer for Quiz Questions](https://smashquiz.netlify.app/lib/components/questions/questions)
-- [Search Quiz](https://smashquiz.netlify.app/)
-- [Authentication](https://smashquiz.netlify.app/lib/components/auth/auth.html)
+- [Quit Quiz](https://smashquiz-react.netlify.app/)
+- [Loading & Alerts](https://smashquiz-react.netlify.app/)
+- [User Profile Page](https://smashquiz-react.netlify.app/)
+- [Authentication](https://smashquiz-react.netlify.app/)
+
+### P2 Features
+
+- [Share Quiz](https://smashquiz-react.netlify.app/)
 
 ### Features Added
 
 - Responsive Site (Both desktop and mobile responsive)
 - Persisting Dark / Light Mode
+- React Loader Spinner
+- Lottie Animations
 
 ---
 

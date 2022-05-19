@@ -26,7 +26,7 @@ export const getAllCategoriesHandler = function () {
 
 /**
  * This handler handles gets all categories in the db.
- * send GET Request at /api/user/category/:categoryId
+ * send GET Request at /api/user/category/:category
  * */
 
 export const getCategoryQuizesHandler = function (schema, request) {

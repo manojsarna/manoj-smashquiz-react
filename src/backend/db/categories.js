@@ -26,8 +26,8 @@ export const categories = [
   },
   {
     _id: uuid(),
-    category: "technology",
-    categoryName: "Technology",
-    description: "Quizzes based on Technology",
+    category: "tech",
+    categoryName: "Tech",
+    description: "Quizzes based on Tech",
   },
 ];

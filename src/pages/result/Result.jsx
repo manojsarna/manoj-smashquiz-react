@@ -4,7 +4,6 @@ export function Result() {
   const navigate = useNavigate();
   const { state } = useLocation();
 
-  console.log(state);
   return (
     <main className="sm-main">
       <div className="sm-result-container">

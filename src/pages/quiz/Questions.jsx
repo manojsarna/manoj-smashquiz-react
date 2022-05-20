@@ -43,8 +43,11 @@ export function Questions() {
               <button
                 className="btn btn-end-quiz"
                 onClick={() => {
-                  navigate("/");
-                  toast.success("Back To Home");
+                  let message = "Are you sure?";
+                  if (confirm(message)) {
+                    navigate("/");
+                    toast.success("Back To Home");
+                  }
                 }}
               >
                 Quit Quiz

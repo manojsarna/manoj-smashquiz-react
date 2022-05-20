@@ -1,4 +1,5 @@
 import { useNavigate, useParams } from "react-router-dom";
+import { toast } from "react-toastify";
 
 import "./rules.css";
 export function Rules({ showRules, setShowRules }) {
@@ -21,14 +22,20 @@ export function Rules({ showRules, setShowRules }) {
           <div className="sm-rules-cta-container">
             <button
               className="btn btn-primary btn-bolder btn-start-quiz go-back-btn "
-              onClick={() => navigate("/")}
+              onClick={() => {
+                navigate("/");
+                toast.success("Back To Home");
+              }}
             >
               <i className="icon-btn-left fas fa-chevron-left"></i>
               Go Back
             </button>
             <button
               className="btn btn-primary btn-bolder btn-start-quiz"
-              onClick={() => setShowRules((rules) => !rules)}
+              onClick={() => {
+                setShowRules((rules) => !rules);
+                toast.success("Quiz Started");
+              }}
             >
               Start Quiz
               <i className="icon-btn-right fas fa-chevron-right"></i>

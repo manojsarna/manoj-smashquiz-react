@@ -16,7 +16,10 @@ export function CategoryCard({ category, images }) {
   }, []);
   return (
     <Link to={`/categories/${category.category}`}>
-      <div className="sm-main-cat-child sm-box-shad-hov">
+      <div
+        className="sm-main-cat-child sm-box-shad-hov"
+        title={`Go To ${category.categoryName}`}
+      >
         <img src={imgSrc} alt="badminton" />
         <div className="sm-man-cat-text sm-grid-text">
           <span>{category.categoryName}</span>

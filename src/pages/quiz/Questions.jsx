@@ -4,6 +4,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { getQuiz } from "../../redux/reducers/categorySlice";
 import { InfinitySpin as Loader } from "react-loader-spinner";
 import "./questions.css";
+import { toast } from "react-toastify";
 export function Questions() {
   const navigate = useNavigate();
 
@@ -41,7 +42,13 @@ export function Questions() {
             <div className="sm-main-question-header">
               <button
                 className="btn btn-end-quiz"
-                onClick={() => navigate("/")}
+                onClick={() => {
+                  let message = "Are you sure?";
+                  if (confirm(message)) {
+                    navigate("/");
+                    toast.success("Back To Home");
+                  }
+                }}
               >
                 Quit Quiz
               </button>
@@ -94,7 +101,6 @@ export function Questions() {
                 </button>
               ))}
             </div>
-            <div></div>
           </div>
         </div>
       </div>
